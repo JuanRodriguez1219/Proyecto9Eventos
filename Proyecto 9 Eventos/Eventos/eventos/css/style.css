@@ -1,0 +1,112 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(0, 190, 248);
+    display: flex;
+    justify-content: center;
+    font-family: monospace;
+}
+
+.eventos {
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+.formulario {
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 10px;
+    background-color: rgb(251, 253, 253);
+    width: 280px;
+    height: 180px;
+    border-radius: 9px;
+    border-style: solid;
+    border-color: rgb(24, 142, 252);
+    border-radius: 5px;
+
+}
+
+#nombreEvento, #fechaEvento, #agregar {
+    margin: 5px 5px 5px;
+    width: 150px;
+    height: 40px;
+    border-radius: 8px;
+    border-style: solid;
+    border-color: rgb(65, 170, 255);
+    border-radius: 5px;
+}
+
+.listaEventos2 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 5px 5px 5px;
+    max-width: auto;
+    max-height: auto;
+    margin: 5px;
+    background-color: rgb(22, 103, 255);
+    border-style: solid;
+    border-color: rgb(60, 151, 255);
+    border-radius: 5px;
+}
+
+.evento {
+    margin: 5px 5px 5px;
+    background-color: rgb(0, 225, 255);
+    width: 500px;
+    height: 90px;
+    font-family: monospace;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: rgb(0, 247, 255);
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: monospace;
+    font-size: 19px;
+}
+
+.evento button {
+    justify-content: space-around;
+    font-family: monospace;
+    font-size: 19px;
+    margin-top: 5px;
+    background-color: rgb(0, 15, 219);
+    border-style: solid;
+    border-color: rgb(112, 121, 252);
+    border-radius: 5px;
+}
+
+.evento button:hover {
+    background-color: rgb(43, 70, 226);
+    cursor: pointer;
+}
+
+.dias{
+    margin-bottom: 22px;
+}
+.diasFaltantes {
+    color: rgb(228, 253, 0);
+    font-size: 26px;
+    font-weight: bold;
+
+}
+
+.footer {
+    margin-top: 5px;
+
+}
+
+.encabezado {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
